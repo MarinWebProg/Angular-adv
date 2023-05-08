@@ -85,7 +85,7 @@ c                       | component (Componente)
 --flat                  | Create the new files at the top level of the current project.
 -s ,--inline-style      | Include styles inline in the component.ts file. Only CSS styles can be included inline. By default, an external styles file is created and referenced in the component.ts file.
 s                       | service(Servicio) 
---dry-run               | Run through and reports activity without writing out results.
+--dry-run               | Run through and reports activity without writing out results.(Corre una simulacion de creacion de componentes)
 --skip-tests            | Saltar pruebas
              
 
