@@ -13,7 +13,7 @@ Secciones     | Completadas
 ## Secciones
 Secciones     | Completadas
 ------------- | -------------
-1 - ??        | (Introduccion, Dominando la creacion automatica del Angular CLI)
+1 - ??        | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto)
 <!-- ## -------- Finalizado -------- ## -->
 ---
 
