@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "Full-Stack"
+        "Full-Stack",
+        "Back-End"
     ]
 }
