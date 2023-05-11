@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-no-page-found',
   templateUrl: './no-page-found.component.html',
-  styles: [
+  styleUrls: [
+    './no-page-found.component.css'
   ]
 })
 export class NoPageFoundComponent {
+  year = new Date().getFullYear();
 
 }
