@@ -87,6 +87,13 @@ c                       | component (Componente)
 s                       | service(Servicio) 
 --dry-run               | Run through and reports activity without writing out results.(Corre una simulacion de creacion de componentes)
 --skip-tests            | Saltar pruebas
+ 
+ --
+
+# Repaso GIT
+Acortador/Shortcut - Comandos       | Descripcion
+----------------------------------  | -------------
+git tag  -a [version] -m "[mensaje]"|  Para la creacion de un etiqueta(tag)
              
 
                 
