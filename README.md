@@ -1,6 +1,6 @@
 # Angular-adv
 Repo del curso Angular Avanzado de Fernando Herrera
-*URL: https://www.udemy.com/course/angular-avanzado-fernando-herrera/*
+- *URL: https://www.udemy.com/course/angular-avanzado-fernando-herrera/*
 
 
 <!-- ## -------- Finalizado -------- ## -->
