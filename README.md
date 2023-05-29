@@ -13,7 +13,7 @@ Secciones     | Completadas
 ## Secciones
 Secciones     | Completadas
 ------------- | -------------
-1 - ??        | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto)
+1 - ??        | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
 <!-- ## -------- Finalizado -------- ## -->
 ---
 
@@ -75,6 +75,11 @@ ng g component [Nombre del componente] --skip-tests
 ng g directive [Nombre de la directiva] --skip-tests
 ```
 
+## Para limpiar cache
+```bash
+ng cache clean
+```
+
 
 --
 # Atajos para Angular CLI
@@ -87,8 +92,9 @@ c                       | component (Componente)
 s                       | service(Servicio) 
 --dry-run               | Run through and reports activity without writing out results.(Corre una simulacion de creacion de componentes)
 --skip-tests            | Saltar pruebas
+m                       | module(modulo)
  
- --
+---
 
 # Repaso GIT
 Acortador/Shortcut - Comandos       | Descripcion
