@@ -6,8 +6,10 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ProgressComponent } from './pages/progress/progress.component';
 import { Grafica1Component } from './pages/grafica1/grafica1.component';
-import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.component';
 import { PagesComponent } from './pages/pages.component';
+
+/** PAGINA NO ENCONTRADO 404*/
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 const routes: Routes=[
   {

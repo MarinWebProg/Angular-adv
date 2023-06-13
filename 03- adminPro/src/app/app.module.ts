@@ -4,20 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 /** Modulos*/
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
+import { AuthModule } from './auth/auth.module';
 
 /** Componentes*/
 import { AppComponent } from './app.component';
-import { LoginComponent } from './auth/login/login.component';
-import { RegisterComponent } from './auth/register/register.component';
-import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent,
     NoPageFoundComponent,
 
   ],
@@ -25,6 +22,7 @@ import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.compon
     BrowserModule,
     AppRoutingModule,
     PagesModule,
+    AuthModule,
   ],
   bootstrap: [AppComponent]
 })
