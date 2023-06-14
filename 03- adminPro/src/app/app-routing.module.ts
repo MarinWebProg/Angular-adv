@@ -15,6 +15,7 @@ const routes: Routes=[
 
   // path '/dashboard' -> pagesRoutingModule
   // path '/auth' -> AuthRoutingModule
+  {path: '',redirectTo:'/dashboard', pathMatch:'full'}, //path de rutas por defecto
   {path: '**',component:NoPageFoundComponent},
 ]
 
