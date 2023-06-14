@@ -8,12 +8,14 @@ Repo del curso Angular Avanzado de Fernando Herrera
 ## Angular Avanzado - LLeva tus bases al siguiente nivel (MEAN)
 Secciones     | Completadas
 ------------- | -------------
-1 - ??        | En progreso
+1 - 4         | Completado
+5 - ??        | En progreso
 
 ## Secciones
 Secciones     | Completadas
 ------------- | -------------
-1 - ??        | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
+1 - 4         | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
+5 - ??        | ()
 <!-- ## -------- Finalizado -------- ## -->
 ---
 
