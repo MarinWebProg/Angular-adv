@@ -15,7 +15,7 @@ Secciones     | Completadas
 Secciones     | Completadas
 ------------- | -------------
 1 - 4         | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
-5 - ??        | ()
+5 - ??        | (@Inputs y @Outputs)
 <!-- ## -------- Finalizado -------- ## -->
 ---
 
@@ -102,6 +102,8 @@ m                       | module(modulo)
 Acortador/Shortcut - Comandos       | Descripcion
 ----------------------------------  | -------------
 git tag  -a [version] -m "[mensaje]"|  Para la creacion de un etiqueta(tag)
+git remote -v                       |  Para ver los links del repo
+git push --tags                     |  Para subir las etiquetas al repo
              
 
                 
