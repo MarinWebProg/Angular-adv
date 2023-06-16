@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
@@ -29,6 +30,7 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     SharedModule,
     RouterModule,
+    FormsModule,
   ]
 })
 export class PagesModule { }
