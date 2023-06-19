@@ -4,10 +4,20 @@
       <div class="card-body">
 
         <h4 class="card-title">Striped Progress bar</h4>
-        <div class="progress-bar bg-info progress-bar-striped active"
-        style="height:10px;" [style.width]="getPorcentaje">
-
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-primary progress-bar-striped active"
+          style="height:10px;" >
+          <!-- [style.width]="getPorcentaje" -->
+          </div>
         </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-info progress-bar-striped active"
+          style="height:10px;">
+           <!-- [style.width]="getPorcentaje" -->
+          </div>
+        </div>
+
 
         </div>
       </div>
@@ -19,35 +29,7 @@
   <div class="col-6">
     <div class="card">
       <div class="card-body">
-
-      <div class="input-group">
-
-          <span class="input-group-btn">
-            <button class="btn btn-primary"
-            (click)="cambiaValor(-5)"
-            type="button">
-              <i class="fa fa-minus"></i>
-            </button>
-          </span>
-
-          <input type="number"
-          class="form-control"
-          placeholder="Progreso"
-          min="0"
-          max="100"
-          [(ngModel)]="progreso">
-
-          <span class="input-group-btn">
-            <button class="btn btn-primary"
-            (click)="cambiaValor(5)"
-            type="button">
-              <i class="fa fa-plus"></i>
-            </button>
-          </span>
-
-      </div>
-
-
+        <app-incrementador></app-incrementador>
       </div>
     </div>
   </div>
@@ -55,7 +37,7 @@
   <div class="col-6">
     <div class="card">
       <div class="card-body">
-        2
+        <app-incrementador></app-incrementador>
       </div>
     </div>
   </div>

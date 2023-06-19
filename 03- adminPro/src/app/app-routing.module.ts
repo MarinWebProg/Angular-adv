@@ -25,6 +25,7 @@ const routes: Routes=[
     RouterModule.forRoot(routes), //El  RouterModule.forRoot(); -->para configurar las rutas principales de una aplicación, especificando qué componentes se mostrarán cuando los usuarios visiten diferentes direcciones en el sitio web.
     pagesRoutingModule,
     AuthRoutingModule,
+
   ],
   exports:[RouterModule],
 })
