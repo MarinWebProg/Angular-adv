@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chart.js": "^4.3.0",
     "ng2-charts": "^4.1.1"
   }
 }
