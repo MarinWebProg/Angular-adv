@@ -11,6 +11,8 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
 
+import { NgChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { ComponentsModule } from '../components/components.module';
     RouterModule,
     FormsModule,
     ComponentsModule,
+    NgChartsModule,
   ]
 })
 export class PagesModule { }

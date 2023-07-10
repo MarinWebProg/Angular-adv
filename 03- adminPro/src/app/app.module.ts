@@ -23,6 +23,7 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
     AppRoutingModule,
     PagesModule,
     AuthModule,
+
   ],
   bootstrap: [AppComponent]
 })
