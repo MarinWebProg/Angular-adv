@@ -96,7 +96,7 @@ s                       | service(Servicio)
 --skip-tests            | Saltar pruebas
 m                       | module(modulo)
  
----
+
 
 # Repaso GIT
 Acortador/Shortcut - Comandos       | Descripcion
