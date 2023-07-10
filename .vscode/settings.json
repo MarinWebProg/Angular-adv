@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "Full-Stack",
         "Back-End",
-        "Front-End"
+        "Front-End",
+        "Node Modules"
     ]
 }
