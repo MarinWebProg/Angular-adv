@@ -17,6 +17,13 @@ Secciones     | Completadas
 1 - 4         | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
 5 - ??        | (@Inputs y @Outputs)
 <!-- ## -------- Finalizado -------- ## -->
+
+## Urls de informacion/librerias/etc
+Pagina              | Urls
+------------------- | -------------
+Angular Charts Demo | https://valor-software.com/ng2-charts/#GeneralInfo
+Charts.js           | https://www.chartjs.org/docs/latest/
+
 ---
 
 # Comandos
