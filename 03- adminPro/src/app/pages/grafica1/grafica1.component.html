@@ -1,14 +1,38 @@
 <div class="row">
   <div class="col-6">
-    <div class="card">
-      <div class="card-body">
-        <h3>Las ventas</h3>
-        <canvas baseChart class="chart"
-        [data]="doughnutChartData"
-        [type]="doughnutChartType">
-        </canvas>
+    <app-dona
+    title="Ventas"
+    [labels]="['Pan','Tela','Aceite','Viveres']"
+    [data]="[ 10, 20, 30, 40 ]"
+    [backgroundColor]="['#f44336', '#ffd966', '#16537e', '#85daa2']"></app-dona>
 
-      </div>
-    </div>
   </div>
+
+  <div class="col-6">
+    <app-dona
+    title="Compras"
+    [labels]="['Harina','Hilo','Botellas','Vino']"
+    [data]="[ 10, 20, 50, 60 ]"
+    [backgroundColor]="['#fc8621', '#da1212', '#2f9919','#781d87']"></app-dona>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-6">
+    <app-dona
+    title = 'Materiales'
+    [labels]="['Cables','Gasolina','Acero','Arena']"
+    [data]="[ 10, 20, 50, 60 ]"
+    [backgroundColor]="['#075', '#fb5512', '#2f1219','#231d87']"></app-dona>
+  </div>
+
+  <div class="col-6">
+    <app-dona
+    title="Restock"
+    [labels]="['Computadoras','Carros','Aire acondicinado','Snacks']"
+    [data]="[ 10, 20, 50, 60 ]"
+    [backgroundColor]="['#075', '#fb5', '#2c19','#231']"></app-dona>
+  </div>
+
 </div>
