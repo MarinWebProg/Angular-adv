@@ -15,7 +15,7 @@ Secciones     | Completadas
 Secciones     | Completadas
 ------------- | -------------
 1 - 4         | (Introduccion, Dominando la creacion automatica del Angular CLI, Estructuracion de nuestro proyecto, Módulos)
-5 - ??        | (@Inputs y @Outputs)
+5 - ??        | (@Inputs y @Outputs, Servicios basicos - temas - rutas basicas y persistencia de los ajustes)
 <!-- ## -------- Finalizado -------- ## -->
 
 ## Urls de informacion/librerias/etc
